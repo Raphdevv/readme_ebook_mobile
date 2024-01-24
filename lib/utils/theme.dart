@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ThemeReadMe {
+  //ColorLight
   static const ColorScheme flexSchemeLight = ColorScheme(
     brightness: Brightness.light,
     primary: Color(0xff303f9f),
@@ -35,6 +36,7 @@ class ThemeReadMe {
     surfaceTint: Color(0xff6750a4),
   );
 
+  //ColorDark
   static const ColorScheme flexSchemeDark = ColorScheme(
     brightness: Brightness.dark,
     primary: Color(0xff6272D8),
@@ -53,7 +55,7 @@ class ThemeReadMe {
     onError: Color(0xff000000),
     errorContainer: Color(0xffB00020),
     onErrorContainer: Color(0xffffffff),
-    background: Color(0xff242424),
+    background: Color(0xff000000),
     onBackground: Color(0xffffffff),
     surface: Color(0xff242424),
     onSurface: Color(0xffffffff),
